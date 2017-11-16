@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+Contact Us
+        </title>
+    </head>
+    <body>
+            <div id="restaurantname">
+                    <h1><center>Backstage EDL</h1></center>
+                  </div>
+            <hr/>
+            <p>
+              <a href="restaurantpage.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact Us</a>
+              </p>
+            <hr/>
+<div id="form">
+<form>
+  <p><b>Name: </b>  <br/>    <input type="text" name="name"/></p>
+   <p></p><b>Email:  <br/>     <input type="text" name="email"/></p>
+   <p>Phone:     <br/>  <input type="text" name="phone"/></p>
+   <p>
+       Reason for Inquiry: <select name="catering">
+           <option value="catering1" default>Catering</option>
+           <option value="private">Private Party</option>
+           <option value="feedback">Feedback</option>
+           <option value="other">Other</option>
+       </select>
+   </p>
+   <div id="information"><p>Additional Information:<br/> <input type="text" name="information" style="width:350px; height:150px;"/></p></div>
+   <p>Have you been to the restaurant? <input type="radio" name="previous" value="no"/>No <input type="radio" name="previous" value="yes"/>Yes</p>
+   <p>Best days to contact you: <input type="checkbox" name="days" value="monday"/>M <input type="checkbox" name="days" value="tuesday"/>T <input type="checkbox" name="days" value="wednes"/>W <input type="checkbox" name="days" value="thurs"/>Th <input type="checkbox" name="days" value="friday"/>F</p>
+   <input type="submit" class="send" value="Send Request"/>
+</form></div>
+<style>
+    #restaurantname {
+        font-size: 55px;
+        font-family: King Basil Lite;
+    }
+    #form {
+        position: absolute;
+        margin: 0 auto;
+        left: 36%;
+
+
+    }
+    #information {
+        display: inline-block;
+    }
+</style>
+    </body>
+</html>
